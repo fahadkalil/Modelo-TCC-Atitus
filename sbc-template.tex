@@ -25,7 +25,8 @@
 \usepackage{listings}
 \usepackage[scaled=0.85]{beramono}
 \usepackage{tabularray}
-%\usepackage[backref=page]{hyperref}
+\usepackage[hidelinks, breaklinks=true]{hyperref}
+%\usepackage{hyperref}
 %\hypersetup{
 %    colorlinks=true,
 %    allcolors=blue,
@@ -34,6 +35,7 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % define o modelo de referencias
 \usepackage[style=abnt, giveninits, uniquename=mininit, repeatfields]{biblatex}
+\emergencystretch=1em
 
 % indica o arquivo com as referencis bibliograficas
 \addbibresource{sbc-template.bib}
@@ -49,8 +51,11 @@
 % Para citar no padrão '(Autores, ano)' use: \cite{chave}
 % Para citar no padrão 'Autores (ano)'  use: \textcite{chave} ou \citeonline{chave}
 % Para citar no padrão 'Autores'        use: \citelastname{chave}
-% Para citar no padrão '(Autor, 2009c; Outro Autor, 2009; Outro Autor, 2015)' use: \cites{chave1}{chave2}{chave3}
 % Para citar no padrão 'Autor (ano), Autor (ano) e Autor (ano)' use: \textcites{chave1}{chave2}{chave3}
+% Para citar no padrão '(Autor, 2009c; Outro Autor, 2009; Outro Autor, 2015)' use: 
+%  \cites{chave1}{chave2}{chave3}
+%  ou
+%  \cite{chave1, chave2, chave3}
 
 % Demais exemplos ver documento:
 %  https://github.com/abntex/biblatex-abnt/raw/master/doc/biblatex-abnt.pdf
@@ -125,7 +130,7 @@ Trabalhos semelhantes aos objetivos específicos, sempre detalhando ao final da 
 
 Neste item serão apresentados os principais trabalhos que possuem uma relação com o assunto definido neste estudo....
 % Itens com marcadores
-\begin{itemize}[itemsep=0.3\baselineskip]
+\begin{itemize}
      \item \textbf{Título do artigo 01 \cite{ogliari2019}}
      
      Primeiro parágrafo indicar uma introdução do assunto...
@@ -149,7 +154,19 @@ Neste item serão apresentados os principais trabalhos que possuem uma relação
 \end{itemize}
 
 \section{Materiais e Métodos}
-    Tecnologias, instrumentos e procedimentos que serão usados no estudo. O Algoritmo~\ref{alg:id_algo} se refere ao método de ordenação Bubblesort expresso em linguagem Python.
+    Tecnologias, instrumentos e procedimentos que serão usados no estudo. O Algoritmo~\ref{alg:id_algo} se refere ao método de ordenação \texttt{Bubblesort} expresso em linguagem \texttt{Python}.
+
+    Uma lista numérica:
+    \begin{enumerate}
+        \item Item 1
+        \item Item 2
+    \end{enumerate}
+
+    Uma lista definida com letras sequenciais:
+    \begin{enumerate}[label=\alph*)]
+        \item Item 1
+        \item Item 2
+    \end{enumerate}    
 
     % Código-fonte formatado
     % Ver: https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
@@ -203,6 +220,7 @@ Essa seção deverá ser escrita na segunda parte do trabalho, conhecida como TC
     
     % Tabelas
     % Editor online: https://www.latex-tables.com
+    % Referência: https://ctan.math.illinois.edu/macros/latex/contrib/tabularray/tabularray.pdf
      \begin{table}[H] % h! pede para o compilador tentar incluir a tabela na posição em que foi declarada;
         \centering
         \caption{Minha tabela}
