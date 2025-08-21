@@ -6,7 +6,7 @@
 % Autor: Fahad Kalil (github.com/fahadkalil)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesPackage{cc_atitus}
+\ProvidesPackage{sty/cc_atitus}
 
 % norma ABNT NBR 10520/2023 - Sobrenomes em minúsculas
 \renewcommand*{\mkbibnamefamily}[1]{#1}
@@ -105,11 +105,16 @@
 }
 
 %% https://ctan.math.illinois.edu/macros/latex/contrib/enumitem/enumitem.pdf
-%% ajusta indentação de itens em listas do tipo description
+%% ajusta indentação de itens em listas
+\setlist[itemize]{itemsep=0.3\baselineskip}
+\setlist[enumerate]{itemsep=0.3\baselineskip, left=\parindent}
 \setlist[description]{left=\parindent, leftmargin=1cm, itemsep=1ex}
 
+% https://tug.org/FontCatalogue/
 \renewcommand*{\ttdefault}{cmtt}
 
 %% inclui espaço separando as referências bibliográficas
 \RequirePackage{setspace}
 \setlength\bibitemsep{\baselineskip}
+
+\emergencystretch=1em
