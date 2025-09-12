@@ -25,7 +25,7 @@ No terminal, baixar pacotes do TeX Live
 
 - Após a instalação, é provável que a tela a seguir (MiKTeX Console) apareça e é importante atualizar os pacotes clicando na **opção 2 ("Update Now")**
 
-<img src="https://livro.curso-r.com/img/instalacao/miktex_windows/win_miktex9.png" alt="Update packages" width="40%"/>
+<img src="https://livro.curso-r.com/img/instalacao/miktex_windows/win_miktex9.png" alt="Update packages" width="80%"/>
 
 - Quando finalizar a atualização, pode-se fechar a tela do MiKTeX Console
 
@@ -43,7 +43,7 @@ Editando no VSCode (>= 1.96.0):
 - Após carregar a pasta do projeto, use a barra lateral contendo os comandos presentes na extensão TeX, principalmente:
   - **Compilar Projeto LaTeX** (*Build LaTeX project*)' e **Visualizar PDF LaTeX** (*View LaTeX PDF*)
 
-<img src="https://vkuhlmann.com/assets/files/VisualStudioCodeDemo-44dc77498e90e4586d28d7caf1c9547d.png" alt="LaTeX Workshop Extension" width="70%"/>
+<img src="https://vkuhlmann.com/assets/files/VisualStudioCodeDemo-44dc77498e90e4586d28d7caf1c9547d.png" alt="LaTeX Workshop Extension" width="80%"/>
 
 ---
 
