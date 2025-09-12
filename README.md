@@ -31,8 +31,7 @@ No terminal, baixar pacotes do TeX Live
 
 #### 2. Perl
 
-- [Baixar o instalador do Perl para Windows](https://strawberryperl.com)
-- Procure pelo instalador formato MSI
+- [Use o instalador formato MSI do Perl para Windows](https://strawberryperl.com)
 - Execute o instalador e siga com as opções padrão
 
 ## Parte 3: Configurando VSCode
