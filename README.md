@@ -18,8 +18,8 @@ No terminal, baixar pacotes do TeX Live
 #### 1. MiKTeX
 
 - [Baixar o instalador do MiKTex para Windows](https://miktex.org/download)
-- Executar o instalador e seguir as configurações padrão, que fará a instalação na pasta: `C:\Users\NOME_DO_USUARIO\AppData\Local\Programs\MiKTeX`
-- Atenção à tela abaixo onde deverá ser feita a opção por "**Yes**" para que pacotes faltantes sejam instalados automaticamente
+- Executar o instalador e seguir a configuração padrão, que fará a instalação na pasta: `C:\Users\NOME_DO_USUARIO\AppData\Local\Programs\MiKTeX`
+- **Atenção à tela abaixo**, onde deverá ser feita a opção por "**Yes**" para que pacotes faltantes sejam instalados automaticamente
   
 ![Install missing packages](https://www.malinc.se/math/latex/images/dontaskme.png)
 
