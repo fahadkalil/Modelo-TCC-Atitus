@@ -23,7 +23,7 @@ No terminal, baixar pacotes do TeX Live
   
 ![Install missing packages](https://www.malinc.se/math/latex/images/dontaskme.png)
 
-- Após a instalação, é provável que a tela a seguir (MiKTeX Console) apareça e é importante atualizar os pacotes clicando na **opção 2 ("Update Now")**
+- Após a instalação é provável que a tela a seguir (MiKTeX Console) apareça e é importante atualizar os pacotes clicando na **opção 2 ("Update Now")**
 
 <img src="https://livro.curso-r.com/img/instalacao/miktex_windows/win_miktex9.png" alt="Update packages" width="70%"/>
 
