@@ -363,3 +363,5 @@ $RECYCLE.BIN/
 
 *.bbl-SAVE-ERROR
 *.bcf-SAVE-ERROR
+
+.comments/

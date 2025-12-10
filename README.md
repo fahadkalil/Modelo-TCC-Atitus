@@ -25,7 +25,7 @@ No terminal, baixar pacotes do TeX Live
 
 - Após a instalação é provável que a tela a seguir (MiKTeX Console) apareça e é importante atualizar os pacotes clicando na **opção 2 ("Update Now")**
 
-<img src="https://livro.curso-r.com/img/instalacao/miktex_windows/win_miktex9.png" alt="Update packages" width="70%"/>
+<img src="tutorials/img_miktex_console.png" alt="Update packages" width="75%"/>
 
 - Quando finalizar a atualização, pode-se fechar a tela do MiKTeX Console e seguir para etapa de instalação do Perl
 
