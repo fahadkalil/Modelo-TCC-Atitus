@@ -6,7 +6,7 @@
 
 # INSTALAÇÃO LOCAL
 
-## Parte 1: Exportar projeto
+## Parte 1: Exportar projeto (se já tiver iniciado no Overleaf)
 
 - [Baixar e extrair o ZIP do projeto no Overleaf](https://www.overleaf.com/learn/how-to/Exporting_your_work_from_Overleaf#Downloading_your_current_project_as_a_.zip_file)
 
